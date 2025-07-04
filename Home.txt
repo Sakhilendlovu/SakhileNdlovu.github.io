@@ -86,25 +86,13 @@
     .social-icons i:hover {
       transform: scale(1.2);
     }
-    
-    .logo {
-      width: 80px;  /* Resize width */
-      height: 80px; /* Maintain aspect ratio */
-      border-radius: 50%;
-      object-fit: cover;
-      text-align: left;
-    }
-
   </style>
 </head>
 <body>
   <header>
-    <div class="header-wrapper">
-     <img src="src/Sakz.jpg" alt="My logo" class="logo">
-      <div class="header-text">
     <h1>Surprise Sakhile Ndlovu</h1>
     <nav>
-      <a href="Home.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="blogs.html">Blogs</a>
       <a href="contact.html">Contact</a>
@@ -156,12 +144,11 @@
       </section>
     </div>
 
-    <!--<div class="reviews">
+    <div class="reviews">
       <div>“Surprise delivers high-quality, innovative solutions.” – Steven, Project Lead</div>
       <div>“He’s known for precise attention to detail.” – David, UI Designer</div>
       <div>“His problem-solving is instrumental to success.” – Sarah, Frontend Dev</div>
-    </div>-->
-
+    </div>
   </main>
 
   <footer>
